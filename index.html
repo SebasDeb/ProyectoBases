@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Declara que el documento es de tipo HTML5 -->
+<html lang="en">
+<!-- Establece el idioma principal del contenido como inglés -->
+
+<head>
+    <!-- Contiene los metadatos y enlaces a recursos externos -->
+    <meta charset="UTF-8">
+    <!-- Especifica la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que la página sea responsive, adaptándose a diferentes dispositivos -->
+    <title>preview-almacen</title>
+    <!-- Define el título de la página que aparece en la pestaña del navegador -->
+    
+    <!-- Enlaza al archivo de hoja de estilos personalizado para control automático -->
+    <link rel="stylesheet" href="css\control-automatico.css">
+    <!-- Enlaza al archivo de hoja de estilos general -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Enlaza al archivo de Bootstrap CSS desde un CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Inicio del contenido visible de la página -->
+    <div>
+        <!-- Sección de navegación principal -->
+        <nav id="main-nav">
+            <!-- Contenedor para el logotipo -->
+            <div class="logo-container">
+                <!-- Imagen del logotipo de la UDLAP con un diseño adaptativo (responsive) -->
+                <img src="resources\images\logo-udlap.png" alt="" class="img-fluid" id="logo-udlap">
+            </div>
+            <!-- Contenedor para los encabezados -->
+            <div class="header-container" id="header-container">
+                <!-- Encabezado que muestra el nombre del departamento -->
+                <header id="nav-departamento">
+                    Departamento de Electrónica
+                </header>
+                <!-- Encabezado que muestra el título del sistema -->
+                <header id="nav-titulo">
+                    -Control automático del laboratorio de electrónica-
+                </header>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Sección que contiene los botones de interacción -->
+    <div class="container-buttons">
+        <!-- Fila para alinear los botones en columnas -->
+        <div class="row">
+            <!-- Columna izquierda para los botones -->
+            <div class="col-3 column-left">
+                    <!-- Botón para agregar un usuario -->
+                    <div class="button-ca" id="button-upper-left">
+                        <a href="http://localhost/sistema_almacen/php/forms/form-check_id.php">
+                            <img src="resources\images\icon-adduser.png" alt="">
+                            <div class="tooltip-left">
+                                <h3>Agregar Usuario</h3>
+                                <!-- Tooltip que describe la función del botón -->
+                            </div>
+                        </a>
+                    </div>
+                </a>
+                <div class="button-ca">
+                        <!-- Botón para consultas -->
+                        <a href="http://localhost/sistema_almacen/php/forms/credentials/form-consults-check_admin_id.php">
+                        <img src="resources\images\icon-consultas.png" alt="">
+                        <div class="tooltip-left">
+                            <h3>Consultas</h3>
+                            <!-- Tooltip que describe la función del botón -->
+                        </div>
+                    </a>
+                </div>
+                <div class="button-ca">
+                    <!-- Botón para cambio de semestre -->
+                    <img src="resources/images/icon-change.png" alt="">
+                    <div class="tooltip-left">
+                        <h3>Cambio de semestre</h3>
+                        <!-- Tooltip que describe la función del botón -->
+                    </div>
+                </div>
+                <div class="button-ca" id="button-upper-left">
+                    <!-- Botón para reporte de inventarios -->
+                    <img src="resources/images/icon-report.png" alt="">
+                    <div class="tooltip-left">
+                        <h3>Reporte de inventarios</h3>
+                        <!-- Tooltip que describe la función del botón -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna central con el escudo UDLAP -->
+            <div class="col-6 text-center">
+                <!-- Imagen central del escudo UDLAP -->
+                <img src="resources\images\escudo-udlap.png" alt="UDLAP Logo" class="img-fluid" id="escudo-udlap">
+            </div>
+
+            <!-- Columna derecha para los botones -->
+            <div class="col-3 column-right">
+                    <!-- Botón para control automático -->
+                    <div class="button-ca" id="button-upper-right">
+                        <a href="html\form-automatic_control.html">
+                        <img src="resources\images\icon-user.png" alt="">
+                        <div class="tooltip-right">
+                            <h3>Control automático</h3>
+                            <!-- Tooltip que describe la función del botón -->
+                        </div>
+                    </div>
+                </a>
+                <div class="button-ca">
+                    <!-- Botón para estadísticas -->
+                    <img src="resources\images\icon-stats.png" alt="">
+                    <div class="tooltip-right">
+                        <h3>Estadísticas</h3>
+                        <!-- Tooltip que describe la función del botón -->
+                    </div>
+                </div>
+                <div class="button-ca">
+                    <!-- Botón para mantenimiento -->
+                    <img src="resources/images/icon-mantenimiento.png" alt="">
+                    <div class="tooltip-right">
+                        <h3>Mantenimiento</h3>
+                        <!-- Tooltip que describe la función del botón -->
+                    </div>
+                </div>
+                <div class="button-ca" id="button-upper-right">
+                    <!-- Espacio reservado para un botón adicional -->
+                </div>
+                <div class="tooltip-right">
+                    <!-- Tooltip de mantenimiento adicional 181763-->
+                    <h3>Mantenimiento</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

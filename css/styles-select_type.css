@@ -1,0 +1,49 @@
+.col-md-3 img{
+    width: auto;
+    height: 15vw;
+}
+
+.col-12 {
+    font-weight: lighter;
+}
+
+.col-12 h1{
+    font-weight: lighter;
+}
+
+.col-md-3 h3{
+    color: white;
+}
+
+#btn-equipos{
+    background-color: rgb(0, 72, 255);
+}
+
+#btn-equipos:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: linear-gradient(45deg, rgb(0, 72, 255), rgb(0, 119, 255));
+}
+
+#btn-conexiones{
+    background-color: rgb(38, 172, 47);
+}
+
+#btn-conexiones:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: linear-gradient(45deg, rgb(38, 172, 47), rgb(15, 145, 32));
+}
+
+#btn-chips{
+    background-color: rgb(255, 238, 0);
+}
+
+#btn-chips:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: linear-gradient(45deg, rgb(255, 238, 0), rgb(255, 242, 65));
+}

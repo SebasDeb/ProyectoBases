@@ -1,0 +1,130 @@
+:root{
+    --color-udlap: #ff7c04
+}
+
+/* Ajuste del tamaño y márgenes de los botones */
+.pagination-buttons {
+    margin: 20px 0; /* Separación de los botones con respecto al borde y otros elementos */
+    display: flex;
+    justify-content: center; /* Alinear botones en el centro */
+}
+
+.pagination-buttons .btn {
+    padding: 15px 30px; /* Aumentar el tamaño de los botones */
+    font-size: 1.2rem; /* Hacer el texto de los botones más grande */
+}
+
+.page-indicator {
+    font-size: 1.5rem; /* Aumentar el tamaño del texto indicador de la página */
+    margin: 0 20px; /* Separar el texto de los botones */
+    align-self: center; /* Centrar el texto con respecto a los botones */
+}
+
+.button-return {
+    border-radius: 50%;
+    background-color: green;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-return img{
+    width: 4vw;
+    height: 4vw;
+}
+
+.button-return:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background: linear-gradient(45deg, green, yellow);
+}
+
+.search-container {
+    display: flex; /* Usamos flexbox para alinear el botón y el input */
+    align-items: center; /* Centrar verticalmente el botón y el input */
+    margin-bottom: 20px;
+}
+
+.search-container .form-control {
+    margin-left: 10px; /* Separar el input del botón */
+}
+
+/* Ajustes específicos para la barra de navegación superior */
+#main-nav {
+    display: flex;
+    justify-content: space-between; /* Distribuir espacio entre el logo y los títulos */
+    align-items: center;
+    background-color: #ff7c04; /* Color UDLAP */
+    padding: 10px; /* Agregar un relleno para evitar que los elementos se peguen al borde */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 60px; /* Ajustar la altura máxima del logo */
+}
+
+.header-container {
+    text-align: right;
+}
+
+.header-container header {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.mr-3 {
+    margin-right: 15px; /* Espacio entre el botón de retorno y la barra de búsqueda */
+}
+
+#main-nav {
+    background-color: var(--color-udlap);
+    display: flex;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.logo-container {
+    /*border: 2px solid green;*/
+    width: 40%;
+    height: fit-content;
+}
+
+#logo-udlap {
+    width: 40%;
+    margin-left: 2%;
+}
+
+#header-container {
+    /*border: 2px solid green;*/
+    width: 50%;
+    height: auto;
+}
+
+#nav-departamento {
+    font-family: "udlap_text_lightbold_italic", sans-serif;
+    text-align: center;
+    font-size: 140%;
+    font-weight: bolder;
+    color: white;
+    margin-top: 2%;
+}
+
+#nav-titulo {
+    font-family: "udlap_text_lightbold_italic", sans-serif;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+}
+
+td{
+    text-align: center;
+}

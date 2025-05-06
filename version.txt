@@ -1,0 +1,72 @@
+Lectura:
+- Primer dígito: Versión general del proyecto.
+- Segundo dígito: Versión de la interfaz.
+- Tercer dígito: Versión de la base de datos.
+- Cuarto dígito: Versión de submenú.
+
+-----Versión más reciente-----
+29/11/2024: Alpha 0.3.5.3:
+- Añadida la nueva tabla de chips a la base de datos.
+- Añadida la nueva tabla de empleados a la base de datos.
+- Añadida la nueva tabla de préstamos a la base de datos.
+- Añadida la nueva tabla de conexiones a la base de datos.
+- Añadido el nuevo sistema de verificación para credenciales de administrador.
+- Mejoras generales en el sistema de seguridad.
+- Añadida la nueva interfaz de usuario para la selección de tipos de componentes.
+- Creado el nuevo formulario de visualización para chips.
+
+19/09/2024: Alpha 0.3.1.4
+- Añadida la nueva funcionalidad de eliminación para la tabla de equipo.
+
+18/09/2024: Alpha 0.3.1.3
+- Añadido el nuevo sistema de consulta para la tabla de equipos.
+- Añadido el nuevo sistema de búsqueda global para la tabla de equipo.
+- Añadido el nuevo sistema de edición para la tabla de equipo.
+- Añadido el nuevo sistema de paginación para la tabla de equipo.
+
+13/09/2024: Alpha 0.2.3.9
+- Añadido el nuevo formulario para edición de los usuarios.
+- Implementado el nuevo script de recuperación de información de los usuarios.
+- Añadido el nuevo sistema de edición de de información de los usuarios. 
+- Añadidas funcionalidades extras. 
+
+12/09/2024: Alpha 0.2.3.7
+- Añadida la función para agregar usuarios a la base de datos.
+- Añadido el nuevo formulario comparador para el ID.
+- Añadido el nuevo formulario para añadir usuarios a la base de datos.
+- Implementado el nuevo sistema de encriptación de claves.  
+
+02/08/2024: Alpha 0.2.2.4:
+- Importada la base de datos a PHPMyAdmin.
+- Creado el servidor local para la ejecución de la base de datos.
+- Añadido el módulo para la conexión con el servidor local.
+- Añadido el lector de la información dentro de la base de datos.
+- Añadido el módulo para añadir usuarios dentro de la base de datos.
+
+31/08/2024: Alpha 0.2.2.0
+- Transformada la tabla "usuarios" de .xlsx a .csv.
+- Cambios en el formato de fechas de la tabla "usuarios.csv".
+- Añadida la tabla "usuarios" en formato MySQL.
+- Importada la base de datos a la carpeta de proyecto.
+
+26/08/2024: Alpha 0.2.1.0
+- Creada base de datos "almacen" en formato MySQL.
+- Transformada la tabla "equipo" de .xlsx a .csv.
+- Cambios en el formato de fechas de la tabla "equipo.csv".
+- Añadida la tabla "equipo" en formato MySQL.
+
+16/08/2024: Alpha 0.2.0.3:
+- Añadido el nuevo botón "return" a la plantilla general.
+- Añadido el nuevo botón "return" al formulario de control automático.
+- Añadido el nuevo botón "return" al formulario de control manual.
+*Añadida información al manual de usuario*
+
+16/08/2024: Alpha 0.2.0.2:
+- Añadida la documentación pertinente para index.html, form-adduser.html y form-control_automatico.html
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+-- 
+Se requiere de un verificador de ID para administradores en:
+    - Consultas.
+    - Cambio de semestre.
+    - Reporte de inventario.
+    - Estadísticas.
+    - Mantenimiento.
+--
+
+--
+Se requiere un botón para añadir filas en la BD en Consultas.
+--
